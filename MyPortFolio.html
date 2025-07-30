@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<header>
+  <div class="hero-text">
+    <h1 id="dynamic-text">Hi, I'm Nihan</h1>
+    <p>Web Developer | Student | Creator | Code Ninja in Training</p>
+  </div>
+</header>
+
+<body>
+  <section id="about">
+    <h2 class="titles">Who Am I?</h2>
+    <p>Assalamualaikum! HI’m Nihan. I’m a 14 year old 7th grader exploring the world of tech, and I’ve been learning web development🌐 with 
+      HTML and CSS. Recently, I’ve started picking up Python to level up my skills and understand how code really works behind the scenes.
+      My next goal is to build an informative website about games🎮—something that blends creativity, research, and design.
+      I’m also into video editing🎞️ and enjoy turning raw ideas into something that looks sharp and tells a story. 
+      Whether I’m studying, coding, or building projects for fun, I always try to learn actively and make each thing I 
+      create a little better than the last😄.
+    </p>
+  </section>
+  <section id="projects">
+    <h2 class="titles">My Works!💻</h2>
+    <ul id="textleft">
+      <strong><h3>My first Portfolio</h3></strong> You're looking at it!</li>
+      <li><p>This is an example of my style of Building websites. As it is my first website it doesnt contain complex JavaScript
+      codes as Imm still learning how to Back-End. I've only Learned HTML and CSS and I'm looking forward in becoming a proin backend too!
+      </p></li>
+      <strong><h3>My Scratch Projects!</h4></strong>
+        <li><p><a href="https://scratch.mit.edu/projects/1176407999">RPG GAME🎮</a> - I tried to build a movable Zelda syle game on scratch! with inbuild structure builder!</li>
+        <li> <p><a href="https://scratch.mit.edu/projects/1165983708">SNAKE GAME🐍</a> - The classic Snake game recreated on Scratch!</p></li>
+        <li><p><a href="https://scratch.mit.edu/projects/1160891878">MATH RACE🚦</a> - A simple race where character moves by solving Maths Additions. A great way for childens to learn with the fun of gaming!</p></li>
+        <li><p><a href="https://scratch.mit.edu/projects/1147536757">PAINTER🖌</a>- Just a simple Painter on scrath. Draw your dreams!</p></li>
+        <li><p><a href="https://scratch.mit.edu/projects/1144068706">Birthday Part Animation🎉</a>- An animation made on scratch! (the first project I ever did on scratch)</p></li>
+        
+
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2 class="titles">Contact Me here!📞</h2>
+    <p>Email: notsomeone8778@gmail.com</p>
+    <p>Whatsapp: +8801311502029</p>
+    <p>Discord: <a href="discordapp.com/users/1311551883709644912">notsomeone_77</a></p>
+  </section>
+
+<div class="social-icons">
+  <a href="https://youtube.com/@ns77yt?si=iYk1QDBU9vVMKpTh" target="_blank">
+    <img src="youtube-icon.png" alt="Youtube" />
+  </a>
+  <a href="Wa.me/+8801311502029" target="_blank">
+    <img src="whatsapp-icon.png" alt="Whatsapp" />
+  </a>
+    <a href="discordapp.com/users/1311551883709644912" target="_blank">
+    <img src="discord-round-black-icon.png" alt="Discord" />
+  </a>
+</div>
+
+  <footer>
+    <p>&copy; 2025 Nihan. All rights reserved.</p>
+  </footer>
+ <script>
+  const messages = [
+    "Hi, I'm Nihan",
+    "হ্যালো, আমি নিহান",
+    "Bonjour, je suis Nihan",
+    "Hola, soy Nihan",
+    "こんにちは、ニハンです",
+    "Hallo, ich bin Nihan"
+  ];
+
+  let index = 0;
+  const textElement = document.getElementById("dynamic-text");
+
+  setInterval(() => {
+    textElement.style.opacity = 0;
+    setTimeout(() => {
+      index = (index + 1) % messages.length;
+      textElement.textContent = messages[index];
+      textElement.style.opacity = 1;
+    }, 500);
+  }, 3000);
+</script>
+
+</body>
+</html>

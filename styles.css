@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+#textleft {
+  text-align: left;
+}
+
+
+.titles {
+  text-align: center;
+}
+
+
+
+h2 {
+  color: #005f99;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+
+header {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#dynamic-text {
+  margin: 0;
+  font-size: 2.5rem;
+  transition: opacity 0.5s ease-in-out;
+}
+body {
+background: linear-gradient(to right, #235723, #f3ddff);
+}
+.social-icons {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2); /* Zooms on hover */
+}
+img {border-radius: 50%;
+width: 150px; /* Set width & height equally */
+height: 150px;
+object-fit: cover;
+}
+section {
+  transition-property: box-shadow;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+section:hover {
+ box-shadow: #235723 30px 10px 35px;
+}
+.titles {
+  color: green;
+}
+#about:hover {
+  color: rgb(95, 57, 57);
+}
+#projects:hover {
+  color: rgb(95, 57, 57);
+}
+#contact:hover {
+  color: rgb(95, 57, 57);
+}
+#email {
+  size: 10%;
+}
